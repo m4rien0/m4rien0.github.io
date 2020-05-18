@@ -140,6 +140,10 @@ h6 {
   padding: 10px 0;
 }
 
+.festival a {
+  color: black;
+}
+
 .festival .year {
   font-weight: normal;
   padding: 2.5px 0;

@@ -9,7 +9,8 @@
       content="Webpage for the second assignment of the 'Webtechnology & Usability' class."
     />
     <meta name="author" content="Marian Korosec" />
-    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <base href="./" />
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="css/mystyle.css" />
     <title>Music n' Stuff - Home</title>
   </head>
@@ -18,21 +19,58 @@
     <nav class="navbar">
       <div id="logo">
         <a href="index.html"
-          ><span class="helper"></span
-          ><img src="img/logo.png" alt="Page Logo" height="35"
+          ><span class="helper"></span><img src="img/logo.png" alt="Page Logo"
         /></a>
       </div>
       <ul>
-        <li><a href="html/festivals.html">Festivals</a></li>
-        <li><a href="html/bands.html">Bands</a></li>
+        <li><a href="pages/festivals.html">Festivals</a></li>
+        <li><a href="pages/bands.html">Bands</a></li>
         <li><a href="index.html" class="active">Home</a></li>
       </ul>
     </nav>
     <div class="container">
-      <div class="content">
-        <h1>Under Construction</h1>
-        <p>This is a page under construction!</p>
-      </div>
+      <main class="content">
+        <h1>Music n' Stuff</h1>
+        <section class="category">
+          <h2>Sharing my favorite things concerning Music!</h2>
+          <p>
+            Everyone likes music, right? Well since we had to make a webpage
+            about a hobby, interest or really anything we want, what better
+            topic is there than music? It's been part of my everyday life for as
+            long as I can think and I'm dead certain there's not a single day
+            without some song blasting on my Spotify or any other media really.
+          </p>
+          <p>
+            On this page you can check out some of my favorite bands as well as
+            festivals. Enjoy!
+          </p>
+        </section>
+        <section class="category">
+          <h4>On this Webpage</h4>
+          <div class="split-page">
+            <div class="left">
+              <h5>Bands</h5>
+              <a href="pages/bands.html"
+                ><img src="img/band.jpg" alt="Band Picture"
+              /></a>
+            </div>
+            <div class="right">
+              <h5>Festivals</h5>
+              <a href="pages/festivals.html"
+                ><img src="img/festival.jpg" alt="Festival Picture"
+              /></a>
+            </div>
+          </div>
+        </section>
+        <section class="category">
+          <h4>Check out my Spotify</h4>
+          <div class="spotify">
+            <a href="https://open.spotify.com/user/thekoros" target="_blank"
+              ><img src="img/spotify.png" alt="Spotify Logo"
+            /></a>
+          </div>
+        </section>
+      </main>
     </div>
   </body>
 </html>

@@ -79,5 +79,93 @@ h6 {
   display: block;
   background-color: #990000;
   border: 2px solid black;
+  padding: 0 25px 25px 25px;
+}
+
+.category {
+  border-top: 1px solid black;
+}
+
+.split-page {
+  padding: 0 2% 20px 2%;
+  width: 96%;
+  display: inline-block;
+}
+
+.left {
+  text-align: center;
+  width: 50%;
+  float: left;
+}
+
+.right {
+  text-align: center;
+  width: 50%;
+  float: right;
+}
+
+.split-page img {
+  width: 90%;
+}
+
+.artist-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.split-page h5 {
+  text-align: center;
+}
+
+.artist-table td,
+.artist-table th {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+.position {
+  text-align: center;
+}
+
+.spotify {
+  text-align: center;
+}
+
+.spotify img {
+  max-height: 250px;
+}
+
+.festival {
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+.festival .year {
+  font-weight: normal;
+  padding: 2.5px 0;
+}
+
+.festival .year.future {
+  font-style: italic;
+}
+
+.festival .year.cancelled {
+  text-decoration: line-through;
+}
+
+.checklist {
+  list-style-type: none;
+}
+
+.checklist li {
+  display: inline;
   padding: 0 25px;
+}
+
+.video {
+  text-align: center;
+}
+
+.video iframe {
+  border: 2px solid black;
 }
